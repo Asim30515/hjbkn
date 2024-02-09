@@ -1,50 +1,54 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
 }
-.umumi{
+.umumi {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-.photo{
+.photo {
   width: 240px;
   height: 300px;
 }
-.buttons,.inputs{
+.buttons,
+.inputs {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 10px;
 }
-.inputs input{
+.buttons button.active {
+  background-color: red !important;
+}
+.inputs input {
   width: 400px;
   height: 35px;
   border-radius: 12px;
   border: 1px solid darkgoldenrod;
   padding: 0px 10px;
 }
-.icons{
+.icons {
   width: 100px;
   display: flex;
   justify-content: space-between;
 }
-.icon{
+.icon {
   color: darkgoldenrod;
   font-size: 24px;
   cursor: pointer;
 }
-.inputs select{
+.inputs select {
   width: 100px;
   height: 35px;
   border-radius: 12px;
   border: 1px solid darkgoldenrod;
   padding: 0px 5px;
 }
-.buttons button{
+.buttons button {
   padding: 10px 20px;
   border-radius: 12px;
   border: none;
@@ -53,7 +57,7 @@
   font-weight: 600;
   cursor: pointer;
 }
-.card{
+.card {
   width: 250px;
   display: flex;
   flex-direction: column;
@@ -61,16 +65,16 @@
   align-items: center;
   margin-bottom: 50px;
 }
-.yazi{
+.yazi {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
 }
-.ad{
+.ad {
   font-weight: 600;
-    color: darkgoldenrod;
+  color: darkgoldenrod;
 }
-.xal{
+.xal {
   font-weight: 600;
-    color: orangered;
+  color: orangered;
 }
